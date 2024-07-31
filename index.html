@@ -1,22 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Totally Semantic Title</title>
-
-		<meta name="author" content="Your Name Here">
-		<meta name="description" content="This is a basic index template; therefore, the content of this tag will need to be updated later.">
-
-		<!-- Google Fonts -->
-
-		<!-- Stylesheets -->
-		<link rel="stylesheet" type="text/css" href="css/modern-reset.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-	</head>
-	<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <meta name="author" content="Edmund Pau">
+    <meta name="description" content="Assignment-02-Blog">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/modern-reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>
+        <div class="container">
+            <div class="logo">
+                <h1>Blog</h1>
+            </div>
+            <img src="img/svg/menu.svg" alt="Menu Icon" class="menu-icon">
+            <nav>
+                <ul>
+                    <li><a href="#about">About <span><img src="img/svg/chevron.svg" alt="Chevron"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#bio">Bio</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#in-the-media">In the Media</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#things-to-do">Things to Do <span><img src="img/svg/chevron.svg" alt="Chevron"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#good-food">Good Food</a></li>
+                            <li><a href="#local-travel">Local Travel</a></li>
+                            <li><a href="#arts-culture">Arts & Culture</a></li>
+                            <li><a href="#family">Family</a></li>
+                            <li><a href="#festivals">Festivals</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact <span><img src="img/svg/chevron.svg" alt="Chevron"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#video-blog">Video Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>  
+    <main>
+		<section class="good-food">
+			<div class="inner-container">
+				<div class="col text-content">
+					<h2><span class="highlight">Good</span> <span>Food</span></h2>
+					<p>I love to eat! Check out some dishes I've tried and restaurants I recommend you try.</p>
+					<button>Discover</button>
+				</div>
+				<div class="col images">
+					<img class="image-breakfast" src="img/breakfast-690128_1920.jpg" alt="View of table with food from above">
+					<img class="image-platter" src="img/platter-2009590_1920.jpg" alt="Platter of foods">
+				</div>
+			</div>
+		</section>
+		<section class="local-travel">
+			<div class="inner-container">
+				<div class="col text-content">
+					<h2>
+						<span class="highlight">Local</span>
+						<span class="sub-text">Travel</span>
+					</h2>
+					<button>Discover</button>
+				</div>
+				<div class="col images">
+					<img class="image-travel" src="img/water-3271579_1920.jpg" alt="Scenic view of local travel destination">
+				</div>
+			</div>
+		</section>		
+		<section class="stuff">
+			<div class="inner-container">
+				<h2>
+					<img src="img/svg/heart.svg" alt="Heart Icon" class="heart-icon">
+					<span class="highlight">Stuff</span>
+				</h2>
+				<div class="cards">
+					<div class="card">
+						<div class="card-image-wrapper">
+							<img src="img/tacos-al-pastor-4351813_1920.jpg" alt="Fresh Prep">
+						</div>
+						<div class="card-content">
+							<div class="image-overlay"></div>
+							<h3>Fresh Prep</h3>
+							<p>Sign up today to enjoy the Fresh Prep difference. Enjoy a more convenient and quality meal kit service delivered to your door.</p>
+							<p>Use our discount code for 10% off your first purchase.</p>
+							<a href="#">VISIT FRESH PREP</a>
+						</div>
+					</div>
+		
+					<div class="card">
+						<div class="card-image-wrapper">
+							<img src="img/farmers-market-colorful-carrots.jpg" alt="Farmers' Market">
+						</div>
+						<div class="card-content">
+							<div class="image-overlay"></div>
+							<h3>Farmers' Market</h3>
+							<p>Edmontonians love farmers' markets and you should too. You'll find everything from fresh local produce to hand-made jewellery, clothing, art and unique home goods. There is a market for every part of the city, and we've got you covered with this list of favourites.</p>
+							<a href="#">CHECKOUT THE LIST</a>
+						</div>
+					</div>
+		
+					<div class="card">
+						<div class="card-image-wrapper">
+							<img src="img/inside-the-brewery.jpg" alt="Cabin Brewery">
+						</div>
+						<div class="card-content">
+							<div class="image-overlay"></div>
+							<h3>Cabin Brewery</h3>
+							<p>Our brewery has a bright and family-friendly tasting room, a retail area and small patio, open 6 days a week.</p>
+							<p>We are super proud of our beautiful brewery and love to show it off.Book a tour to learn more about where we came from and how we make our delicious beer.</p>
+							<a href="#">BOOK A TOUR</a>
+						</div>
+					</div>
+		
+					<div class="card">
+						<div class="card-image-wrapper">
+							<img src="img/frothy-hot-chocolate-in-mug.jpg" alt="Hot Chocolate Bombs">
+						</div>
+						<div class="card-content">
+							<div class="image-overlay"></div>
+							<h3>Hot Chocolate Bombs</h3>
+							<p>Hot Chocolate Bombs are chocolate spheres filled with homemade chocolate milk powder and marshmallows that are put into a mug with hot milk for a delicious cup of hot cocoa. Try my Best Homemade Hot Cocoa for another rich and creamy hot chocolate recipe.</p>
+							<a href="#">MAKE THIS RECIPE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<section class="video">
+			<div class="video-wrapper">
+				<div class="video-content">
+					<h2>
+						<span>Video</span>
+						<span>Blog</span>
+					</h2>
+					<p>Follow me on my YouTube channel to get news, discounts and more.</p>
+					<button>Discover</button>
+				</div>
+				<div class="video-image">
+					<img src="img/camera-690163_1920.jpg" alt="Video Blog">
+				</div>
+			</div>
+		</section>				
+    </main>
+	<footer>
 		<div class="container">
-			<h1>Hello, world!</h1>
+			<div class="footer-section">
+				<h4>About</h4>
+				<ul>
+					<li><a href="#">Bio</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">In the Media</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h4>Things to Do</h4>
+				<ul>
+					<li><a href="#">Good Food</a></li>
+					<li><a href="#">Local Travel</a></li>
+					<li><a href="#">Arts & Culture</a></li>
+					<li><a href="#">Family</a></li>
+					<li><a href="#">Festivals</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h4>Contact</h4>
+				<ul>
+					<li><a href="#">Video Blog</a></li>
+				</ul>
+			</div>
+			<div class="footer-section social-icons">
+				<a href="#"><img src="img/svg/facebook.svg" class="social-icon" alt="Facebook"></a>
+				<a href="#"><img src="img/svg/instagram.svg" class="social-icon" alt="Instagram"></a>
+				<a href="#"><img src="img/svg/youtube.svg" class="social-icon" alt="YouTube"></a>
+				<a href="#"><img src="img/svg/linkedin.svg" class="social-icon" alt="LinkedIn"></a>
+			</div>
 		</div>
-	</body>
+	</footer>	
+    <script src="js/main.js"></script>
+</body>
 </html>
