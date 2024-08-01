@@ -530,6 +530,11 @@ main {
     line-height: 1.2;
 }
 
+.stuff .card a:hover {
+    color: #555;
+    border-bottom: 2px solid #555;
+}
+
 /* Stuff Section Media Queries */
 @media screen and (max-width: 1024px) {
     .stuff .cards {
@@ -783,6 +788,10 @@ footer .container {
     width: 24px;
     height: 24px;
     filter: invert(1);
+}
+
+.social-icons a:hover img {
+    filter: none;
 }
 
 /* Footer Media Queries */
